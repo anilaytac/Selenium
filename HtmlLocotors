@@ -1,0 +1,32 @@
+# Html Locators 
+Locators in Selenium
+Selenium konum belirleyicileri; CSS ID, CSS class name, name attribute,  DOM structure or Xpath, tagName, link text, partial link text, HTML tag name 
+özellikleri kullanarak web sayfalarında öğeleri bulmanızı sağlar. Bu da otomatik test sürecini daha etkili hale getirir ve uygulamanızın kalitesini artırır.
+
+Selenium'daki en iyi 8 bulucu:
+1.	By CSS ID: find_element_by_id
+2.	By CSS class name: find_element_by_class_name
+3.	By name attribute: find_element_by_name
+4.	By DOM structure or Xpath: find_element_by_xpath
+5.	by tagName: find_element_by_tag_name()
+6.	By link text: find_element_by_link_text
+7.	By partial link text: find_element_by_partial_link_text
+8.	By HTML tag name: find_element_by_tag_name
+
+
+Locate Elements by CSS ID: find_element_id metodu,  bir web elementini bulmak için kullanılan bir yöntemdir. Bu yöntem, bir HTML sayfasındaki bir elementi benzersiz bir kimlik (ID) özelliğine göre bulmak için kullanılır.
+
+Locate Elements by CSS Class:  find_element_by_class_name metodu sınıf adına göre web öğelerinde arama yapar. Yalnızca eşleşen sınıfa sahip ilk öğeyi döndürür.
+
+By name attribute: find_element_by_name metodu by name ile find_element veya find_elements yöntemleri kullanılarak HTML öğeleri adına göre bulunabilir.
+By DOM structure or Xpath: find_element_by_xpath metodu web tarayıcılarında öğeleri bulmak için kullanılan güçlü bir arama tekniğidir.
+
+by tagName: find_element_by_tag_name metodu bir HTML belgesinde belirli bir etiket adına sahip tüm öğeleri bulmak için kullanılan bir seçici stratejisidir.
+
+By link text: find_element_by_link_text metodu bir sayfadaki bir bağlantı metnini temel alarak bir bağlantı öğesini bulmak için kullanılan bir seçici stratejisidir. Bu strateji, bir bağlantının tam metnini (bağlantı metni) arar ve eşleşen bir bağlantı öğesi bulursa onu döndürür.
+
+By partial link text: find_element_by_partial_link_text metodu bir sayfadaki bir bağlantı metninin bir kısmına dayanarak bir bağlantı öğesini bulmak için kullanılan bir seçici stratejisidir. Bu strateji, bir bağlantının metninin belirli bir kısmını içeren bağlantı öğelerini bulur.
+
+
+By HTML tag name: find_element_by_tag_name  metodu belirli bir HTML etiketine sahip öğeleri bulmak için kullanılan bir seçici stratejisidir. Bu strateji, belirli bir etikete sahip tüm HTML öğelerini bulur.
+
